@@ -1,0 +1,544 @@
+body {
+	background: white;
+	height: 100%;
+	font-family: 'montserrat';
+}
+
+nav {
+	padding-top: 1%;
+}
+
+.navbar-brand img {
+	height: 20px;
+}
+
+.nav .nav-link {
+	font-size: 2vh;
+	color: black !important;
+	font-weight: 250;
+}
+
+
+.nav .nav-link::after {
+	content: '';
+	display: block;
+	width: 80%;
+	margin: auto;
+	border-bottom: 2px solid transparent;
+	-moz-border-image: -moz-linear-gradient(to right, #7ace67, #c2dd6a);
+	-webkit-border-image: -webkit-linear-gradient(to right, #7ace67, #c2dd6a);
+	border-image: linear-gradient(to right, #7ace67, #c2dd6a);
+	border-image-slice: 1;
+	padding-bottom: 1px;
+	margin-bottom: -3px;
+}
+
+.container .title h1 {
+	font-size: 5vh;
+	font-weight: 300 !important;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: capitalize;
+}
+
+.container .title .head-title {
+	margin-bottom: -1.2vw;
+}
+
+.container .title h1 span {
+	font-weight: bold;
+}
+
+.kotak-title {
+	height: 3vw;
+	width: 100%;
+}
+
+.title .kotak {
+	height: 2vw;
+	width: 2vw;
+	float: left;
+	margin-right: .5vw;
+}
+
+.kotak-title .col-auto {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+
+
+.kotak-title p {
+	margin: auto;
+	float: left;
+	font-size: 2vw;
+	color: rgb(96, 96, 97);
+	font-weight: 200;
+}
+
+
+
+.title p span {
+	font-style: italic;
+}
+
+.title p span:nth-child(1) {
+	color: #31b156;
+}
+
+.title p span:nth-child(2) {
+	color: #7ace67;
+}
+
+.title p span:nth-child(3) {
+	color: #c2dd6a;
+}
+
+.title #kotak1 {
+	background-color: #31b156;
+}
+
+.title #kotak2 {
+	background-color: #7ace67;
+}
+
+.title #kotak3 {
+	background-color: #c2dd6a;
+}
+
+.title #kotak4 {
+	background-color: #ffe3b3;
+}
+
+.title .batas {
+	float: left;
+	display: block;
+	width: 100%;
+	height: 1vh;
+	background: linear-gradient(to right, #31b156, #c2dd6a);
+	border-radius: 5px;
+}
+
+
+/* artikel */
+.sub-title h3 {
+	margin: auto;
+	font-size: 3vh;
+	font-family: 'Times New Roman', Times, serif;
+	color: #c2dd6a;
+	font-weight: bold;
+}
+
+.content {
+	margin-bottom: 1% !important;
+}
+
+.content .img {
+	width: 100%;
+	height: 40vw;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.content .img img {
+	position: absolute;
+	transition: .5s ease-in;
+
+}
+
+
+.content p {
+	font-size: 3vw;
+}
+
+.content .quotes {
+	font-family: 'Times New Roman', Times, serif;
+	color: #c2dd6a;
+	font-size: 2vh;
+	margin: 5% 10%;
+}
+
+.content .quotes i {
+	color: #31b156;
+}
+
+
+/* about */
+.content .about {
+	position: absolute;
+	bottom: 0;
+}
+
+.content .about .about-text {
+	margin-right: -4vw;
+}
+
+.content .about p {
+	margin: 0;
+	font-size: 2vw;
+}
+
+.content .about p:nth-child(2) {
+	margin-top: -1px;
+	color: rgb(146, 146, 148);
+	font-size: 1.8vw;
+	font-weight: 300;
+}
+
+.content .about p:nth-child(3) {
+	font-size: 1.3vw;
+	font-weight: 300;
+	line-height: 100%;
+}
+
+.content .about img {
+	height: auto;
+	width: 60%;
+	float: right;
+	border-radius: 0;
+}
+
+.content .about .follow {
+	margin-bottom: -1%;
+	margin-top: auto !important;
+}
+
+.content .about .follow i {
+	font-size: 2vw;
+	color: white;
+	background: linear-gradient(to right, #31b156, #c2dd6a);
+	padding: 2% 4%;
+	border-radius: 1.2vw;
+}
+
+.content .about .follow i span {
+	font-family: 'montserrat';
+	font-size: 1.5vw;
+}
+
+
+
+.batas {
+	float: left;
+	display: block;
+	width: 100%;
+	height: .5vh;
+	background: linear-gradient(to right, #31b156, #c2dd6a);
+	border-radius: 5px;
+}
+
+/* more */
+.more h4 {
+	font-weight: 200;
+	font-style: italic;
+	margin-bottom: 3%;
+	font-size: 4vw;
+}
+
+.more .card {
+	border: none;
+	background: #fff6e7;
+}
+
+
+.more .card ul li {
+	border: none;
+	border-bottom: 1px solid rgb(68, 68, 68) !important;
+	list-style: none;
+	padding: 3%;
+	font-size: 3vw;
+	font-weight: 300
+}
+
+.more .form-message .form-group {
+	margin-bottom: 1%;
+}
+
+.more .form-message label {
+	font-weight: 200;
+	font-style: italic;
+	margin-top: -10px;
+	margin-bottom: 0;
+	font-size: 3vw;
+}
+
+
+.more .form-message input,
+.more .form-message textarea {
+	font-size: 2.2vw;
+}
+
+.more .form-message .btnsend {
+	font-size: 3vw;
+	color: white;
+	background: linear-gradient(to bottom, #31b156, #c2dd6a);
+	border-radius: 2vw;
+	padding: 1% 4%;
+}
+
+.more .form-message .btnsend:hover {
+	font-size: 1.2vw;
+	color: #31b156;
+	background: none;
+	border: 1.1px solid #31b156;
+}
+
+/* comment */
+
+
+.comment .card {
+	background: linear-gradient(to top, #31b156, #c2dd6a);
+	border-radius: 2vh;
+}
+
+.comment .card .list-comment {
+	margin-top: 3%;
+}
+
+.comment .photo {
+	padding: 0;
+}
+
+.comment .photo img {
+	width: 80%;
+
+}
+
+.comment .people-comment {
+	font-weight: 600;
+	margin-bottom: -2% !important;
+	font-size: 2vw;
+}
+
+.comment .people-comment p span {
+	font-weight: 300;
+}
+
+.comment .text-comment {
+	font-size: 1.5vw;
+}
+
+.text-comment button .btnreply {
+	font-size: .5vw !important;
+}
+
+.comment .text-comment p {
+	margin-bottom: 1%;
+}
+
+.comment .text-comment .reply .text-comment,
+.comment .text-comment .reply .people-comment {
+	margin-top: 1.5%;
+	font-size: 1vw;
+}
+
+.comment .text-comment .reply .people-comment span {
+	margin-top: -2%;
+	font-weight: 300;
+}
+
+.comment .text-comment .reply .text-comment span {
+	margin-top: -2%;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+/* FOOTER */
+footer {
+	background: black;
+}
+
+footer p {
+	color: white;
+	font-weight: 200;
+	font-size: 2vw;
+}
+
+footer p span {
+	color: #31b156;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/* tablet */
+@media (min-width: 576px) {
+	.nav .nav-link {
+		font-size: 3vh;
+		font-weight: 300;
+	}
+
+	.navbar-brand img {
+		height: 40px;
+	}
+
+	.container .title h1 {
+		font-size: 10vh;
+	}
+
+
+	.title .batas {
+		height: 2vh;
+
+	}
+
+	/* artkel */
+	.sub-title h3 {
+		font-size: 4.5vh;
+	}
+
+
+	.container .title .head-title {
+		margin-bottom: -1.5vw;
+	}
+
+	.content p {
+		font-size: 1.6vw;
+	}
+
+	.content .img {
+		height: 20vw;
+
+	}
+
+	.content .about .about-text {
+		margin-right: -1vw;
+	}
+
+	.content .about p {
+		margin: 0;
+		font-size: 1vw;
+	}
+
+	.content .about p:nth-child(2) {
+		margin-top: -1px;
+		color: rgb(146, 146, 148);
+		font-size: .8vw;
+		font-weight: 300;
+	}
+
+	.content .about p:nth-child(3) {
+		font-size: .6vw;
+		font-weight: 300;
+		line-height: 100%;
+	}
+
+	.content .about img {
+		width: 70%;
+	}
+
+	.content .about .follow i {
+		font-size: 1.5vw;
+		color: white;
+		background: linear-gradient(to right, #31b156, #c2dd6a);
+		padding: 3% 5%;
+		border-radius: 5px;
+	}
+
+	.content .about .follow i span {
+		font-family: 'montserrat';
+		font-size: 1.2vw;
+	}
+
+
+
+	/* more */
+	.more h4 {
+
+		font-size: 2vw;
+	}
+
+	.more .card ul li {
+
+		font-size: 1.2vw;
+	}
+
+
+	.more .form-message label {
+		font-size: 1.2vw;
+	}
+
+
+	.more .form-message input,
+	.more .form-message textarea {
+		font-size: 1vw;
+	}
+
+	.more .form-message .btnsend {
+		font-size: 1.2vw;
+		border-radius: 1.2vw;
+
+	}
+
+	/* comment */
+	.comment .people-comment {
+		margin-bottom: -1%;
+	}
+
+	.comment .people-comment,
+	.comment .text-comment {
+		font-size: 1.2vw;
+	}
+
+	/* footer */
+	footer p {
+		color: white;
+		font-weight: 200;
+		font-size: 1.2vw;
+	}
+
+
+
+
+}
+
+/* desktop */
+@media (min-width: 992px) {
+
+
+
+
+	.content p {
+		font-size: 1.6vw;
+	}
+
+	.content .about .about-text {
+		margin-right: -1.5vw;
+	}
+
+	.content .about img {
+		width: 65%;
+	}
+
+	.kotak-title {
+		height: 3vw;
+		width: 100%;
+		margin-bottom: 0vw !important;
+	}
+
+	.title .kotak {
+		height: 1.2vw;
+		width: 1.2vw;
+		float: left;
+		margin-right: .3vw;
+	}
+
+	.kotak-title p {
+		font-size: 1.2vw;
+	}
+
+	.more .form-message .btnsend:hover {
+		font-size: 1.2vw;
+		color: #31b156;
+		background: none;
+		font-weight: 600;
+		border: 1.8px solid #31b156;
+	}
+
+	/* comment */
+	.comment .photo img {
+		width: 65%;
+
+	}
+
+}
